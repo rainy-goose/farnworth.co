@@ -14,27 +14,33 @@ h2 {
 }
 h3 {
     font-family: "GOST Common", Verdana, sans-serif;
-    padding: 10px;
+    padding: 16px;
     margin: -10px;
     font-size: 26px;
+    color:lime;
+}
+h4 {
+    font-family: "GOST Common", Verdana, sans-serif;
+    padding: 16px;
+    margin: -10px;
+    font-size: 22px;
     color:lime;
 }
 a {
     color: lime;
 }
-.bodyDiv {
+div.bodyDiv {
     text-align: center;
     padding: 100px;
     outline-style: solid;
     outline-color: dodgerblue;
 }
 
-.info {
+div.info {
     outline-style: solid;
     outline-color: tomato;
     width: 50%;
     text-align: left;
-    text-indent: 15px;
 }
 .bContact {
   display: inline-block;
@@ -57,4 +63,69 @@ a {
   background-color: #262626;
   box-shadow: 0 5px #333333;
   transform: translateY(3px);
+}
+div.contactButton{
+      outline-style: solid;
+      outline-color: purple;
+}
+
+
+
+
+
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color:lime;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: lime;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: lime;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: lime;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: lime;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: lime;
+  }
 }
