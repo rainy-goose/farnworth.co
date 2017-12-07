@@ -1,4 +1,4 @@
-body {background-color:black;}
+body {background-color:black;margin-left: 10%;}
 head {}
 
 h2 {
@@ -28,17 +28,18 @@ a {
 }
 p {
     font-family: "GOST Common", Verdana, sans-serif;
-    padding: 0px;
+    margin-top: 2px;
+    margin-left: 3px;
     font-size: .75em;
-    color:lime;
+    color: lime;
     text-align: left;
 
 }
 div.bodyDiv {
     text-align: center;
     padding: 100px;
-    outline-style: solid;
-    outline-color: dodgerblue;
+    /*outline-style: solid;
+    outline-color: dodgerblue;*/
 }
 
 div.info {
@@ -63,31 +64,39 @@ div.menuBar {
 }
 div.spacer {
   padding: 0px;
-  width: 80%;
+  width: 60%;
+  height: 100%;
+  /*outline-style: solid;
+  outline-color: navy;*/
+  float: left;
 }
 div.close {
-  padding: 10px;
+  padding: 0px;
   outline-style: solid;
   outline-color: lime;
   width: 6.66%;
+  height: 100%;
   float: right;
   margin-left: 3px;
 }
 div.max {
-  padding: 10px;
+  padding: 0px;
   outline-style: solid;
-  outline-color: red;
+  outline-color: #4d4d4d;
   width: 6.66%;
+  height: 100%;
   float: right;
   margin-left: 3px;
 }
 div.min {
-  padding: 10px;
+  padding: 0px;
   outline-style: solid;
-  outline-color: #808080;
+  outline-color: #4d4d4d;
   width: 6.66%;
+  height: 100%;
   float: right;
 }
+div.close{text-align: center;}
 div.linebreak {
   padding: 1.5px;
 }
@@ -114,8 +123,8 @@ div.linebreak {
   transform: translateY(3px);
 }
 div.contactButton {
-      outline-style: solid;
-      outline-color: purple;
+      /*outline-style: solid;
+      outline-color: purple;*/
       margin-top: 20px;
 }
 
