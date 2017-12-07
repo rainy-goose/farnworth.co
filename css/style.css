@@ -1,33 +1,38 @@
-body {
-    background-color:black;
-    }
-
-head {
-}
+body {background-color:black;}
+head {}
 
 h2 {
     font-family: "GOST Common", Verdana, sans-serif;
     padding: 20px;
     margin: -10px;
-    font-size: 34px;
+    font-size: 2.125em;
     color:lime;
 }
 h3 {
     font-family: "GOST Common", Verdana, sans-serif;
     padding: 16px;
     margin: -10px;
-    font-size: 26px;
+    font-size: 1.625em;
     color:lime;
+    line-height: 1
 }
 h4 {
     font-family: "GOST Common", Verdana, sans-serif;
     padding: 16px;
     margin: -10px;
-    font-size: 22px;
+    font-size: 1.375em;
     color:lime;
 }
 a {
     color: lime;
+}
+p {
+    font-family: "GOST Common", Verdana, sans-serif;
+    padding: 0px;
+    font-size: .75em;
+    color:lime;
+    text-align: left;
+
 }
 div.bodyDiv {
     text-align: center;
@@ -38,9 +43,53 @@ div.bodyDiv {
 
 div.info {
     outline-style: solid;
-    outline-color: tomato;
+    outline-color: #4d4d4d;
     width: 50%;
+    padding-top: 10px;
     text-align: left;
+}
+#contactdiv {
+      outline-style: solid;
+      outline-color: yellow;
+      display: none;
+      margin-top: 30px;
+}
+div.menuBar {
+  width: 50%;
+  outline-style: solid;
+  outline-color: #4d4d4d;
+  height: 20px;
+  word-wrap: normal;
+}
+div.spacer {
+  padding: 0px;
+  width: 80%;
+}
+div.close {
+  padding: 10px;
+  outline-style: solid;
+  outline-color: lime;
+  width: 6.66%;
+  float: right;
+  margin-left: 3px;
+}
+div.max {
+  padding: 10px;
+  outline-style: solid;
+  outline-color: red;
+  width: 6.66%;
+  float: right;
+  margin-left: 3px;
+}
+div.min {
+  padding: 10px;
+  outline-style: solid;
+  outline-color: #808080;
+  width: 6.66%;
+  float: right;
+}
+div.linebreak {
+  padding: 1.5px;
 }
 .bContact {
   display: inline-block;
@@ -64,19 +113,18 @@ div.info {
   box-shadow: 0 5px #333333;
   transform: translateY(3px);
 }
-div.contactButton{
+div.contactButton {
       outline-style: solid;
       outline-color: purple;
+      margin-top: 20px;
 }
-
-
 
 
 
 
 .blinking-cursor {
   font-weight: 100;
-  font-size: 30px;
+  font-size: 26px;
   color:lime;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
