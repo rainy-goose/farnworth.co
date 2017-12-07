@@ -50,8 +50,8 @@ div.info {
     text-align: left;
 }
 #contactdiv {
-      outline-style: solid;
-      outline-color: yellow;
+      /*outline-style: solid;
+      outline-color: yellow;*/
       display: none;
       margin-top: 30px;
 }
