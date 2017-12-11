@@ -109,10 +109,10 @@ div.linebreak {
   text-decoration: none;
   outline:none;
   color:lime;
-  background-color:#4d4d4d;
+  background-color:#333333;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #333333;
+  box-shadow: 0 9px rgb(32, 32, 32) ;
 }
 
 .bContact:hover {background-color: #444444}
