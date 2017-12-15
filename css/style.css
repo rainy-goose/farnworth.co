@@ -129,7 +129,7 @@ div.linebreak {
   color:lime;
   background-color:#333333;
   border: none;
-  border-radius: 15px;
+  border-radius: 2px;
   box-shadow: 0 9px rgb(32, 32, 32) ;
 }
 
@@ -137,7 +137,6 @@ div.linebreak {
 
 .bContact:active {
   background-color: #262626;
-  box-shadow: 0 5px #333333;
   transform: translateY(3px);
 }
 div.contactButton {
