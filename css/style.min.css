@@ -17,7 +17,7 @@ a:hover {color:#00b300; border-color:#00b300;}
 .max {background-color: #27ae60;}
 .max:hover {background-color:#1e8449;}
 .links {font-size:16px; text-align:center;}
-#contactInfo {display: none;}
+#contactInfo {display: none; text-align: center; padding-top: 10px;}
 .cursor:after {content:"_"; font-weight:900; opacity:0; animation:cursor 1s infinite}
 @keyframes cursor{0%{opacity:0}40%{opacity:0}50%{opacity:1}90%{opacity:1}100%{opacity:0}}.more{margin-top:20px;border-radius:5px;text-align:left;padding:10px;line-height:75%;display:none}.more p{font-size:12px;line-height:125%}
 .copy {position:fixed; bottom:-12px; left:10px; width:10px; height:15px; line-height:100%; overflow:hidden; word-wrap:none; font-size:14px;opacity:0.75;z-index:999}

@@ -1,5 +1,5 @@
-function contactLink() {
-    var x = document.getElementById("contact");
+function toggleContact() {
+    var x = document.getElementById("contactInfo");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
