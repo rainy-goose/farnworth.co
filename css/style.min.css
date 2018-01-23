@@ -16,6 +16,9 @@ a:hover {
   color: #00b300;
   border-color: #00b300;
 }
+img{
+  margin-bottom: 3%;
+}
 
 .container {
   margin-top: 10vh;
