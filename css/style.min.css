@@ -113,7 +113,11 @@ img{
 #contactInfo {
   display: none;
   text-align: center;
+  font-size: .875em;
   padding-top: 10px;
+}
+#contactInfo a{
+  text-decoration: underline;
 }
 
 .cursor:after {
