@@ -11,6 +11,7 @@
   <link rel="shortcut icon" href="assets/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="css/style.min.css" />
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,12 +24,14 @@
       <div class="twelve columns window">
         <header>
           <ul>
-            <li class="min"></li>
+            <li class="min" onclick="toggle404()" href="#"></li>
             <li class="max"></li>
             <li class="close"></li>
           </ul>
         </header>
-        <h1 class="text">Error 404: Page not found</h1>
+        <div id="404text">
+          <h1 class="text">Error 404: Page not found</h1>
+        </div>
       </div>
     </div>
   </div>
