@@ -3,6 +3,9 @@ body, html {
   color: lime;
   font-family: "consolas", monospace;
 }
+.row {
+  float: center;
+}
 
 a {
   color: lime;
@@ -77,33 +80,10 @@ img{
   line-height: 0;
 }
 
-.window #prompt {
+.window .prompt {
   margin-bottom: 20px;
 }
 
-.close {
-  background-color: #e74c3c;
-}
-
-.close:hover {
-  background-color: #d62c1a;
-}
-
-.min {
-  background-color: #f1c40f;
-}
-
-.min:hover {
-  background-color: #c29d0b;
-}
-
-.max {
-  background-color: #27ae60;
-}
-
-.max:hover {
-  background-color: #1e8449;
-}
 
 .links {
   font-size: 16px;
@@ -111,22 +91,18 @@ img{
   width: auto;
 }
 .triple {
-  width: 33.33%;
+  width: 33.32%;
   float: left;
   font-size: 18px;
   text-align: center;
 }
+
 #totalWindow {
   display: block;
 }
 
-#contactInfo {
-  display: none;
-  text-align: center;
-  font-size: .875em;
-  padding-top: 10px;
-}
-#contactInfo a{
+
+.contact{
   text-decoration: underline;
 }
 
